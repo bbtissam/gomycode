@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio - Btissam Aboulouafa</title>
+
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <img src="Betty.webp" alt="logo betty" class="logo"/>
+    <header>
+      <nav class="navbar">
+        <ul>
+          <li class="nav-list"><a href="#home">Home</a></li>
+          <li class="nav-item"><a href="#resume">Resume</a></li>
+          <li class="nav-item"><a href="#about">About</a></li>
+          <li class="nav-item"><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="home">
+        <h1>Bienvenue sur mon Portfolio</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad nobis nemo
+          sint officiis, sunt iusto soluta possimus inventore ullam iure totam
+          consectetur quia quae blanditiis voluptates. Consectetur quidem fugit
+          incidunt.
+        </p>
+        <iframe width="400" height="250" 
+          src="https://www.youtube.com/watch?v=uuN0bf4rhT0" 
+          title="Vidéo de présentation"
+          frameborder="0" 
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+          allowfullscreen>
+  </iframe>
+      </section>
+      <section id="about">
+        <h2>About Me</h2>
+        <p>
+          Je m'appelle <strong>Btissam Aboulouafa</strong>,diplômée en génie
+          informatique, avec une passion pour le développement web,
+          l’administration des bases de données et le test logiciel.
+        </p>
+        
+      </section>
+      <section id="resume">
+        <h2>Resume</h2>
+        <table border="1" cellpadding="5">
+            <thead>
+          <tr>
+            <th>Année</th>
+            <th>Expérience</th>
+            <th>Technologies</th>
+          </tr>
+          </thead>
+          <tbody>
+          <tr>
+            <td>2025</td>
+            <td>Stage ARTLINK - Gestion location voitures</td>
+            <td>PHP, MySQL, Bootstrap</td>
+          </tr>
+          <tr>
+            <td>2024</td>
+            <td>Stage PFE - Application e-commerce</td>
+            <td>Laravel, React, MySQL</td>
+          </tr>
+          <tr>
+            <td>2023</td>
+            <td>Stage DBA - DXC Technology</td>
+            <td>Oracle DB, RMAN, Shell</td>
+          </tr>
+          </tbody>
+        </table>
+      </section>
+      <section id="contact">
+        <h2>Contact Me</h2>
+        <form action="submit.php" method="post">
+          <label for="name">Nom :</label><br />
+          <input type="text" id="name" name="name" required /><br /><br />
+
+          <label for="email">Email :</label><br />
+          <input type="email" id="email" name="email" required /><br /><br />
+
+          <label for="message">Message :</label><br />
+          <textarea id="message" name="message" rows="5"></textarea><br /><br />
+
+          <input type="submit" value="Envoyer" />
+        </form>
+      </section>
+    </main>
+    <footer class="footer">
+      <p>© 2025 - Btissam Aboulouafa | <a href="#home">Retour en haut</a></p>
+    </footer>
+  </body>
+</html>
